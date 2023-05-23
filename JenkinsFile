@@ -10,7 +10,7 @@ pipeline {
         
         stage('Cleanup') {
             steps {
-                sh '/usr/local/bin/docker rmi lab3:latest'
+                sh '/usr/local/bin/docker rmi image'
             }
         }
     }
